@@ -5,7 +5,7 @@ const RenderSupport = () => {
   return (
     <div className="support__row">
       <div className="support__container">
-        <h4>Linux Hosting yang Stabil dengan Teknologi LVE</h4>
+        <h3>Linux Hosting yang Stabil dengan Teknologi LVE</h3>
 
         <div className="support__row">
           <p>

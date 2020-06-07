@@ -8,9 +8,9 @@ import tutorialJSON from "../json/tutorial.json";
 import aboutUsJSON from "../json/aboutUs.json";
 import whyJSON from "../json/why.json";
 
-import iconFB from "../assets/svg/logo-facebook.svg";
-import iconG from "../assets/svg/logo-google-plus.svg";
-import iconTwitter from "../assets/svg/logo-twitter.svg";
+import iconFB from "../assets/svg/icon-facebook.svg";
+import iconG from "../assets/svg/icon-google-plus.svg";
+import iconTwitter from "../assets/svg/icon-twitter.svg";
 
 import paymentAlto from "../assets/svg/payment_alto.svg";
 import paymentAtmBersama from "../assets/svg/payment_atm-bersama.svg";

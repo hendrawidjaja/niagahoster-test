@@ -2,9 +2,10 @@
   .support__row {
     display: flex;
     flex-direction: column-reverse;
+    margin: 1.5rem 0;
 
     .support__container {
-      margin: 1rem 0;
+      margin: 1.5rem 0;
 
       &:last-of-type {
         display: flex;
@@ -28,6 +29,11 @@
           width: auto;
         }
       }
+
+      p {
+        margin: 0;
+      }
+
       .button-wrapper {
         text-align: left;
       }

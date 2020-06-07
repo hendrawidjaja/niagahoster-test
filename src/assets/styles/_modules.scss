@@ -1,6 +1,8 @@
 .content__modules {
   .modules__row {
     display: flex;
+    position: relative;
+    margin: 1rem 0;
   }
 
   .modules__container {
