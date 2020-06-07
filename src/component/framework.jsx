@@ -27,7 +27,7 @@ const RenderFramework = () => {
             <p>
               Mendukung ekstensi <span className="bold">PHP MCrypt</span>,{" "}
               <span className="bold">phar</span>,{" "}
-              <span className="bold">mbstring</span>,
+              <span className="bold">mbstring</span>,{" "}
               <span className="bold">json</span>, dan{" "}
               <span className="bold">fileinfo</span>.
             </p>

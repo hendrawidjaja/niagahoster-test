@@ -4,6 +4,8 @@
     flex-direction: column-reverse;
 
     .support__container {
+      margin: 1rem 0;
+
       &:last-of-type {
         display: flex;
       }

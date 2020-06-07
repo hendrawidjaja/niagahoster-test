@@ -67,7 +67,7 @@ const RenderProducts = () => {
                                   className={
                                     index2 === 11 ? "bold star" : "bold"
                                   }>
-                                  {value.pretext} &nbsp;
+                                  {value.pretext}
                                 </span>
                                 {value.text && <span>{value.text}</span>}
                               </div>

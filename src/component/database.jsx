@@ -51,7 +51,7 @@ const RenderDatabase = () => {
                 {value.icon && (
                   <img src={retunSVG(value.icon)} alt={value.icon} />
                 )}
-                {value.title && <p className="bold">{value.title}</p>}
+                {value.title && <p className="bold__font">{value.title}</p>}
                 {value.teaser && <p>{value.teaser}</p>}
                 {value.text && <p>{value.text}</p>}
               </div>

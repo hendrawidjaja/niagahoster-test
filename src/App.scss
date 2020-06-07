@@ -10,23 +10,35 @@
 @import "../src/assets/styles/footer";
 
 @font-face {
-  font-family: "NunitoSans Bold";
+  font-family: "Montserrat Bold";
   font-style: normal;
   font-weight: 400;
-  src: local("NunitoSans-Bold"), local("NunitoSans-Bold"),
-    url(assets/fonts/NunitoSans-Bold.ttf) format("truetype");
+  src: local("Montserrat-Bold"), local("Montserrat-Bold"),
+    url(assets/fonts/montserrat/Montserrat-Bold.otf) format("truetype");
 }
 
 @font-face {
-  font-family: "NunitoSans Regular";
+  font-family: "Montserrat Regular";
   font-style: normal;
   font-weight: 400;
-  src: local("NunitoSans-Regular"), local("NunitoSans-Regular"),
-    url(assets/fonts/NunitoSans-Regular.ttf) format("truetype");
+  src: local("Montserrat-Regular"), local("Montserrat-Regular"),
+    url(assets/fonts/montserrat/Montserrat-Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat Light";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat-Light"), local("Montserrat-Light"),
+    url(assets/fonts/montserrat/Montserrat-Light.otf) format("truetype");
 }
 
 .standard__font {
-  font-family: "NunitoSans Regular";
+  font-family: "Montserrat Light";
+}
+
+.bold__font {
+  font-family: "Montserrat Bold";
 }
 
 * {
@@ -37,7 +49,7 @@
 }
 
 #root {
-  font-family: "NunitoSans Regular";
+  font-family: "Montserrat Light";
   position: relative;
   width: 100%;
 }
@@ -83,7 +95,7 @@ ol {
 
 a {
   color: #000000;
-  text-decoration: none;
+  font-family: "Montserrat Light";
   text-decoration-color: transparent;
 }
 
@@ -93,10 +105,16 @@ img {
   object-fit: contain;
 }
 
-a,
-h1,
+h1 {
+  font-family: "Montserrat Bold";
+}
+
 h2 {
-  font-family: "NunitoSans Bold";
+  font-family: "Montserrat Regular";
+}
+
+h3 {
+  font-family: "Montserrat Light";
 }
 
 p {

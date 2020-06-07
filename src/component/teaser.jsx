@@ -16,7 +16,7 @@ const RenderTeaser = () => {
           {teaser.map((value, index) => (
             <React.Fragment key={index}>
               {value.title && <h1>{value.title}</h1>}
-              {value.teaser && <h2>{value.teaser}</h2>}
+              {value.teaser && <h3>{value.teaser}</h3>}
               {value.text && (
                 <div className="text__wrapper">
                   <FontAwesomeIcon icon={faCheckCircle} />

@@ -27,6 +27,10 @@
       margin: 2rem 0;
     }
 
+    h2 {
+      font-weight: bold;
+    }
+
     h4 {
       text-align: center;
     }
@@ -100,6 +104,10 @@
         }
       }
     }
+  }
+
+  .teaser__row {
+    margin: 1rem auto 0;
   }
 }
 

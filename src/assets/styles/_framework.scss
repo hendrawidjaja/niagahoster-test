@@ -32,6 +32,7 @@
     align-items: center;
     display: flex;
     position: relative;
+    margin: 0.5rem 0;
 
     p {
       margin-left: 8px;
@@ -47,6 +48,7 @@
 
     .row__framework {
       flex-direction: row;
+      justify-content: space-between;
       width: 1170px;
 
       .button-wrapper {
@@ -55,7 +57,7 @@
     }
 
     .wrapper__framework {
-      margin: 1rem auto 2rem;
+      margin: 1rem 0 2rem;
       width: 50%;
     }
 
