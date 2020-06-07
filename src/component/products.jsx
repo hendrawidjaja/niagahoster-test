@@ -7,10 +7,8 @@ const RenderProducts = () => {
     <>
       <div className="teaser__row">
         <div className="teaser__container">
-          <h2 className="align-center">Paket Hosting Singapura yang Tepat</h2>
-          <h3 className="align-center">
-            Diskon 40% + Domain dan SSL Gratis untuk Anda
-          </h3>
+          <h2 className="align-center">{productsJSON.title}</h2>
+          <h3 className="align-center">{productsJSON.teaser}</h3>
         </div>
       </div>
       <div className="teaser__row">
@@ -65,17 +63,21 @@ const RenderProducts = () => {
                           <div key={index2} className="points__row">
                             {value.pretext && (
                               <div className="points__row--block">
-                                <span className="bold">
+                                <span
+                                  className={
+                                    index2 === 11 ? "bold star" : "bold"
+                                  }>
                                   {value.pretext} &nbsp;
                                 </span>
-                                <span>{value.text}</span>
+                                {value.text && <span>{value.text}</span>}
                               </div>
                             )}
                           </div>
                         );
                       })}
+
                     <div className="button-wrapper">
-                      <button className="btn-round">Pilih Sekarang</button>
+                      <button className="btn-round">{value.button}</button>
                     </div>
                   </div>
                 </div>

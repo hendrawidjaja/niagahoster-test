@@ -1,23 +1,53 @@
 {
+  "title": "Paket Hosting Singapura yang Tepat",
+  "teaser": "Diskon 40% + Domain dan SSL Gratis untuk Anda",
   "block": [
     {
       "className": "",
       "show": true,
       "highlight": false,
       "title": "Bayi",
+      "button": "Pilih Sekarang",
       "prices": [
-        { "pretext": "", "text": "19.900" },
-        { "pretext": "14", "text": "900" }
+        {
+          "pretext": "",
+          "text": "19.900"
+        },
+        {
+          "pretext": "14",
+          "text": "900"
+        }
       ],
       "user": "938",
       "points": [
-        { "pretext": "0.5X RESOURCES POWER ", "text": "" },
-        { "pretext": "500MB ", "text": "Disk Space" },
-        { "pretext": "Unlimited ", "text": "Bandwidth" },
-        { "pretext": "Unlimited ", "text": "Databases" },
-        { "pretext": "1 ", "text": "Domain" },
-        { "pretext": "Instant ", "text": "Backup" },
-        { "pretext": "Unlimited SSL ", "text": "Gratis Selamanya" }
+        {
+          "pretext": "0.5X RESOURCE POWER ",
+          "text": ""
+        },
+        {
+          "pretext": "500MB ",
+          "text": "Disk Space"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Bandwidth"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Databases"
+        },
+        {
+          "pretext": "1 ",
+          "text": "Domain"
+        },
+        {
+          "pretext": "Instant ",
+          "text": "Backup"
+        },
+        {
+          "pretext": "Unlimited SSL ",
+          "text": "Gratis Selamanya"
+        }
       ]
     },
     {
@@ -25,21 +55,55 @@
       "show": true,
       "highlight": false,
       "title": "Pelajar",
+      "button": "Pilih Sekarang",
       "prices": [
-        { "pretext": "", "text": "46.900" },
-        { "pretext": "23", "text": "450" }
+        {
+          "pretext": "",
+          "text": "46.900"
+        },
+        {
+          "pretext": "23",
+          "text": "450"
+        }
       ],
       "user": "4.168",
       "points": [
-        { "pretext": "1X RESOURCES POWER ", "text": "" },
-        { "pretext": "Unlimited ", "text": "Disk Space" },
-        { "pretext": "Unlimited ", "text": "Bandwidth" },
-        { "pretext": "Unlimited ", "text": "POP3 Email" },
-        { "pretext": "Unlimited ", "text": "Databases" },
-        { "pretext": "10 ", "text": "Addon Domain" },
-        { "pretext": "Domain Gratis ", "text": "Selamanya" },
-        { "pretext": "Instant ", "text": "Backup" },
-        { "pretext": "Unlimited SSL ", "text": "Gratis Selamanya" }
+        {
+          "pretext": "1X RESOURCE POWER ",
+          "text": ""
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Disk Space"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Bandwidth"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "POP3 Email"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Databases"
+        },
+        {
+          "pretext": "10 ",
+          "text": "Addon Domain"
+        },
+        {
+          "pretext": "Domain Gratis ",
+          "text": "Selamanya"
+        },
+        {
+          "pretext": "Instant ",
+          "text": "Backup"
+        },
+        {
+          "pretext": "Unlimited SSL ",
+          "text": "Gratis Selamanya"
+        }
       ]
     },
     {
@@ -47,23 +111,63 @@
       "show": true,
       "highlight": true,
       "title": "Personal",
+      "button": "Pilih Sekarang",
       "prices": [
-        { "pretext": "", "text": "58.900" },
-        { "pretext": "38", "text": "900" }
+        {
+          "pretext": "",
+          "text": "58.900"
+        },
+        {
+          "pretext": "38",
+          "text": "900"
+        }
       ],
       "user": "10.017",
       "points": [
-        { "pretext": "2X RESOURCES POWER ", "text": "" },
-        { "pretext": "Unlimited ", "text": "Disk Space" },
-        { "pretext": "Unlimited ", "text": "Bandwidth" },
-        { "pretext": "Unlimited ", "text": "POP3 Email" },
-        { "pretext": "Unlimited ", "text": "Databases" },
-        { "pretext": "Unlimited ", "text": "Addon Domain" },
-        { "pretext": "Instant ", "text": "Backup" },
-        { "pretext": "Domain Gratis ", "text": "Selamanya" },
-        { "pretext": "Unlimited SSL ", "text": "Gratis Selamanya" },
-        { "pretext": "Private ", "text": "Name Server" },
-        { "pretext": "SpamAssasin ", "text": "Mail Protection" }
+        {
+          "pretext": "2X RESOURCE POWER ",
+          "text": ""
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Disk Space"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Bandwidth"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "POP3 Email"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Databases"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Addon Domain"
+        },
+        {
+          "pretext": "Instant ",
+          "text": "Backup"
+        },
+        {
+          "pretext": "Domain Gratis ",
+          "text": "Selamanya"
+        },
+        {
+          "pretext": "Unlimited SSL ",
+          "text": "Gratis Selamanya"
+        },
+        {
+          "pretext": "Private ",
+          "text": "Name Server"
+        },
+        {
+          "pretext": "SpamAssasin ",
+          "text": "Mail Protection"
+        }
       ]
     },
     {
@@ -71,24 +175,73 @@
       "show": true,
       "highlight": false,
       "title": "Bisnis",
+      "button": "Diskon 40%",
       "prices": [
-        { "pretext": "", "text": "109.900" },
-        { "pretext": "65", "text": "900" }
+        {
+          "pretext": "",
+          "text": "109.900"
+        },
+        {
+          "pretext": "65",
+          "text": "900"
+        }
       ],
       "user": "3.552",
       "points": [
-        { "pretext": "3X RESOURCES POWER ", "text": "" },
-        { "pretext": "Unlimited ", "text": "Disk Space" },
-        { "pretext": "Unlimited ", "text": "Bandwidth" },
-        { "pretext": "Unlimited ", "text": "POP3 Email" },
-        { "pretext": "Unlimited ", "text": "Databases" },
-        { "pretext": "Unlimited ", "text": "Addon Domain" },
-        { "pretext": "Magic Auto ", "text": "Backup & Restore" },
-        { "pretext": "Domain Gratis ", "text": "Selamanya" },
-        { "pretext": "Unlimited SSL ", "text": "Gratis Selamanya" },
-        { "pretext": "Private ", "text": "Name Server" },
-        { "pretext": "Prioritas ", "text": "Layanan Support", "star": true },
-        { "pretext": "SpamExpert ", "text": "Pro Mail Protection" }
+        {
+          "pretext": "3X RESOURCE POWER ",
+          "text": ""
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Disk Space"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Bandwidth"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "POP3 Email"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Databases"
+        },
+        {
+          "pretext": "Unlimited ",
+          "text": "Addon Domain"
+        },
+        {
+          "pretext": "Magic Auto ",
+          "text": "Backup & Restore"
+        },
+        {
+          "pretext": "Domain Gratis ",
+          "text": "Selamanya"
+        },
+        {
+          "pretext": "Unlimited SSL ",
+          "text": "Gratis Selamanya"
+        },
+        {
+          "pretext": "Private ",
+          "text": "Name Server"
+        },
+        {
+          "pretext": "Prioritas ",
+          "text": "Layanan Support",
+          "star": true
+        },
+        {
+          "pretext": "★★★★★",
+          "text": "",
+          "star": true
+        },
+        {
+          "pretext": "SpamExpert ",
+          "text": "Pro Mail Protection"
+        }
       ]
     }
   ]
