@@ -4,13 +4,13 @@
     width: 100%;
 
     .card.highlight {
-      border-color: #007bff;
+      border: 1px solid #007bff;
       .card__row {
         button,
         .price__row,
         .card__row--block--user {
           background-color: #007bff;
-          border-color: #007bff;
+          border: 1px solid #007bff;
           color: #ffffff;
         }
 
@@ -23,7 +23,7 @@
     }
 
     .card {
-      border-color: rgba(128, 128, 128, 0.125);
+      border: 1px solid rgba(128, 128, 128, 0.125);
       margin: 2rem 0;
     }
 

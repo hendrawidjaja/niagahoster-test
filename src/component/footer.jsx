@@ -65,7 +65,7 @@ const RenderFooter = () => {
           <div className="footer__items__container payment-icons">
             <h5 className="standard__font">PEMBAYARAN</h5>
 
-            <div className="footer__items__wrapper standard__font">
+            <div className="footer__items__wrapper">
               <img src={paymentBca} alt="Bca" />
               <img src={paymentMandiri} alt="Mandiri" />
               <img src={paymentBni} alt="Bni" />
