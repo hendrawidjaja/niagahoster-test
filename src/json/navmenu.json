@@ -1,0 +1,12 @@
+{
+  "block": [
+    { "className": "", "href": "/#", "show": true, "text": "Hosting" },
+    { "className": "", "href": "/#", "show": true, "text": "Domain" },
+    { "className": "", "href": "/#", "show": true, "text": "Server" },
+    { "className": "", "href": "/#", "show": true, "text": "Website" },
+    { "className": "", "href": "/#", "show": true, "text": "Afiliasi" },
+    { "className": "", "href": "/#", "show": true, "text": "Promo" },
+    { "className": "", "href": "/#", "show": true, "text": "Pembayaran" },
+    { "className": "", "href": "/#", "show": true, "text": "Review" }
+  ]
+}

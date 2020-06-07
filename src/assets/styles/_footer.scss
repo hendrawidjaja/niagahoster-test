@@ -1,0 +1,271 @@
+.container__footer {
+  background-color: rgba(8, 8, 8, 0.9);
+
+  .footer__row,
+  .footer__wrapper {
+    position: relative;
+  }
+
+  .footer__row {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer__items__container {
+    position: relative;
+    padding-top: 2rem;
+    width: 50%;
+
+    h5,
+    a,
+    li {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.8rem;
+      font-weight: bold;
+      transition: color 0.8s;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    a,
+    li {
+      margin-bottom: 3px;
+
+      &:hover {
+        color: #c4c4c4;
+        transition: 0.6s;
+      }
+    }
+
+    .footer__items__wrapper {
+      display: flex;
+      position: relative;
+
+      .footer__items--list {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-top: 1rem;
+      }
+
+      .footer__items--icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 2rem auto 0;
+        width: 100%;
+      }
+    }
+
+    &:last-of-type {
+      margin-left: 0;
+    }
+
+    &.social-media {
+      padding-top: 2rem;
+      width: 100%;
+
+      .footer__items__wrapper {
+        padding-top: 2rem;
+        justify-content: space-around;
+      }
+
+      img {
+        cursor: pointer;
+        width: 12.5%;
+      }
+    }
+
+    &.newsletter,
+    &.payment-icons {
+      width: 100%;
+    }
+
+    form {
+      background-color: #ffffff;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 0;
+      margin-top: 1rem;
+      padding: 0.2rem 0.2rem;
+      position: relative;
+
+      input {
+        background-color: transparent;
+        position: relative;
+        border: none;
+        padding: 0.25rem 1rem;
+        width: 70%;
+      }
+
+      button {
+        border-radius: 25px;
+        border: 0;
+        font-size: 0.7rem;
+        padding: 0.4rem 0.5rem;
+        position: relative;
+        width: 30%;
+      }
+    }
+
+    &.payment-icons {
+      .footer__items__wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .footer__items--list {
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+      }
+
+      img {
+        background-color: rgba(88, 88, 88, 0.5);
+        filter: grayscale(100%);
+        opacity: 0.5;
+        transition: all 0.3s;
+        margin: 0 15px 20px 0;
+
+        &:hover {
+          background-color: transparent;
+          filter: none;
+          opacity: unset;
+          transition: all 0.3s;
+        }
+      }
+
+      span {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 0.75rem;
+      }
+    }
+
+    &.copyright,
+    &.technology {
+      display: flex;
+      width: 100%;
+
+      span {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 0.75rem;
+        width: 100%;
+      }
+    }
+
+    &.copyright {
+      flex-direction: column;
+      flex-wrap: nowrap;
+
+      .button-wrapper {
+        font-size: 0.75rem;
+        text-align: left;
+        width: 100%;
+
+        button {
+          background-color: transparent;
+          border: none;
+          color: rgba(255, 255, 255, 0.7);
+          padding: 0;
+        }
+      }
+    }
+
+    &.technology {
+      padding-top: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container__footer {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+    .footer__row {
+      width: 1170px;
+    }
+
+    .footer__items__container {
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 25%;
+
+      h5,
+      a,
+      li {
+        font-size: 1rem;
+      }
+
+      .footer__items__wrapper--2 {
+        display: flex;
+        position: relative;
+        margin-top: 24px;
+      }
+
+      &.social-media {
+        padding-top: 2rem;
+        width: 25%;
+
+        img {
+          width: 15%;
+        }
+      }
+
+      &.newsletter {
+        width: 25%;
+      }
+
+      form {
+        margin-bottom: 0;
+        margin-top: 1rem;
+        padding: 0.2rem 0.2rem;
+
+        input {
+          padding: 0.25rem 0.4rem 0.25rem 0.6rem;
+          width: 60%;
+        }
+
+        button {
+          font-size: 0.7rem;
+          padding: 0.4rem 0.5rem;
+          width: 40%;
+        }
+      }
+
+      &.copyright {
+        flex-direction: row;
+        span {
+          width: 80%;
+        }
+
+        .button-wrapper {
+          margin: 0;
+          text-align: center;
+          width: 20%;
+
+          button {
+            background-color: transparent;
+            border: none;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}

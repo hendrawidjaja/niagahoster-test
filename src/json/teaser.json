@@ -1,0 +1,47 @@
+{
+  "block": [
+    {
+      "className": "",
+      "show": true,
+      "title": "PHP Hosting",
+      "teaser": "",
+      "text": ""
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "Cepat, handal, penuh dengan modul PHP yang Anda butuhkan",
+      "text": ""
+    },
+
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Solusi PHP untuk performa query yang lebih cepat."
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Konsumsi memori yang lebih rendah."
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Fitur enkripsi IonCube dan Zend Guard Loaders"
+    }
+  ]
+}

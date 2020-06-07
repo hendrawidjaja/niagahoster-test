@@ -1,0 +1,54 @@
+.content__database {
+  .database__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .database__wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem auto 1rem;
+
+    img {
+      margin: 0 auto 1rem;
+      width: 34%;
+    }
+
+    p {
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  &:after {
+    display: block;
+    position: absolute;
+    left: 50%;
+    background-color: rgba(128, 128, 128, 0.125);
+    content: "";
+    height: 4px;
+    bottom: 5%;
+    transform: translateX(-50%);
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content__database {
+    .database__container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .database__wrapper {
+      width: 33.3%;
+
+      img {
+        width: 17%;
+      }
+    }
+  }
+}

@@ -1,0 +1,207 @@
+@import "../src/assets/styles/nav";
+@import "../src/assets/styles/teaser";
+@import "../src/assets/styles/products";
+@import "../src/assets/styles/tech";
+@import "../src/assets/styles/database";
+@import "../src/assets/styles/framework";
+@import "../src/assets/styles/modules";
+@import "../src/assets/styles/support";
+@import "../src/assets/styles/share";
+@import "../src/assets/styles/footer";
+
+@font-face {
+  font-family: "NunitoSans Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: local("NunitoSans-Bold"), local("NunitoSans-Bold"),
+    url(assets/fonts/NunitoSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "NunitoSans Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("NunitoSans-Regular"), local("NunitoSans-Regular"),
+    url(assets/fonts/NunitoSans-Regular.ttf) format("truetype");
+}
+
+.standard__font {
+  font-family: "NunitoSans Regular";
+}
+
+* {
+  &:focus {
+    outline: none;
+    outline-color: transparent;
+  }
+}
+
+#root {
+  font-family: "NunitoSans Regular";
+  position: relative;
+  width: 100%;
+}
+
+.App {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+li {
+  word-wrap: break-word;
+}
+
+h3,
+h4,
+h5,
+li,
+ol {
+  user-select: none;
+  font-weight: normal;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  text-decoration-color: transparent;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+a,
+h1,
+h2 {
+  font-family: "NunitoSans Bold";
+}
+
+p {
+  color: #000000;
+  font-size: 0.875rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.show-mobile {
+  display: flex;
+}
+
+.show-desktop {
+  display: none;
+}
+
+div[class^="content__"]:not(.content__nav) {
+  position: relative;
+  padding: 1rem 15px 2rem;
+}
+
+div[class^="container__"],
+div[class$="__container"] {
+  position: relative;
+}
+
+.nav__row {
+  margin: 0 auto;
+  position: relative;
+}
+
+.teaser__row {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fa-check-circle {
+  color: rgb(64, 192, 64);
+}
+
+.button-wrapper {
+  margin: 1rem auto;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+button {
+  position: relative;
+  padding: 0.5rem 1rem;
+
+  &.btn {
+    border: 2px solid rgba(128, 128, 128, 1);
+
+    &:hover {
+      background-color: rgba(128, 128, 128, 1);
+      color: #ffffff;
+    }
+  }
+
+  &.btn-round {
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem 0.5rem;
+  }
+}
+
+@media screen and (min-width: 420px) {
+}
+
+@media screen and (min-width: 1200px) {
+  .show-mobile {
+    display: none;
+  }
+
+  .show-desktop {
+    display: flex;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .nav__container,
+  div[class^="content__"]:not(.content__nav) {
+    margin: 0 auto;
+    width: 1170px;
+  }
+
+  div[class^="content__"]:not(.content__nav) {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html,
+  body {
+    height: 100%;
+    overscroll-behavior-y: contain;
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+}

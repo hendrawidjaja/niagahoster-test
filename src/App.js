@@ -1,24 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import RenderNav from "./component/nav";
+import RenderTeaser from "./component/teaser";
+import RenderProducts from "./component/products";
+import RenderTech from "./component/tech";
+import RenderDatabase from "./component/database";
+import RenderFramework from "./component/framework";
+import RenderModule from "./component/modules";
+import RenderSupport from "./component/support";
+import RenderShare from "./component/share";
+import RenderFooter from "./component/footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="content__nav">
+        <RenderNav />
+      </div>
+      <div className="content__teaser">
+        <RenderTeaser />
+      </div>
+      <div className="content__products">
+        <RenderProducts />
+      </div>
+      <div className="content__tech">
+        <RenderTech />
+      </div>
+      <div className="content__database">
+        <RenderDatabase />
+      </div>
+      <div className="container__framework">
+        <RenderFramework />
+      </div>
+      <div className="content__modules">
+        <RenderModule />
+      </div>
+      <div className="content__support">
+        <RenderSupport />
+      </div>
+      <RenderShare />
+      <RenderFooter />
     </div>
   );
 }

@@ -1,0 +1,116 @@
+.content__products {
+  .teaser__container {
+    flex-direction: column;
+    width: 100%;
+
+    .card.highlight {
+      border-color: #007bff;
+      .card__row {
+        button,
+        .price__row,
+        .card__row--block--user {
+          background-color: #007bff;
+          border-color: #007bff;
+          color: #ffffff;
+        }
+
+        button {
+          &:hover {
+            background-color: #0069d9;
+          }
+        }
+      }
+    }
+
+    .card {
+      border-color: rgba(128, 128, 128, 0.125);
+      margin: 2rem 0;
+    }
+
+    h4 {
+      text-align: center;
+    }
+
+    &.teaser__container--card {
+      display: flex;
+    }
+
+    .card__row {
+      h4 {
+        margin: 0.5rem auto;
+      }
+
+      button {
+        margin: 2rem auto 1.5rem;
+      }
+
+      &:last-child {
+        padding: 1rem 1rem 0rem;
+      }
+    }
+
+    .card__row--block {
+      position: relative;
+      text-align: center;
+
+      p {
+        margin: 0.5rem auto;
+      }
+
+      .strikethrough {
+        text-decoration: line-through;
+      }
+    }
+
+    .price__row {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      justify-content: center;
+
+      span {
+        position: relative;
+      }
+
+      span:not(.price__row--pretext) {
+        margin-top: 8px;
+      }
+
+      span.price__row--pretext {
+        font-size: 38px;
+      }
+    }
+
+    .points__row {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+
+      .points__row--block {
+        position: relative;
+        text-align: center;
+        width: 100%;
+
+        span {
+          margin: 0.5rem auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content__products {
+    .teaser__container {
+      flex-direction: row;
+      text-align: center;
+
+      &.teaser__container--card {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "block": [
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "max execution time 300s"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "max execution time 300s"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "php memory limit 1024 MB"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "post max size 128 MB"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "upload max filesize 128 MB"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "max input vers 2500"
+    }
+  ]
+}

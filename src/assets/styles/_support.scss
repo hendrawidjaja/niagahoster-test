@@ -1,0 +1,34 @@
+.content__support {
+  .support__row {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .support__container {
+      &:last-of-type {
+        display: flex;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content__support {
+    .support__row {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .support__container {
+        &:first-of-type {
+          width: 46%;
+        }
+
+        &:last-of-type {
+          width: auto;
+        }
+      }
+      .button-wrapper {
+        text-align: left;
+      }
+    }
+  }
+}

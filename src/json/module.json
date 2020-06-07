@@ -1,0 +1,424 @@
+{
+  "block": [
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "IcePHP"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "apc"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "apcu"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "apm"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "ares"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "bcmath"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "bcompiler"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "big_int"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "bitset"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "bloomy"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "bz2_filter"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "clamav"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "coin_acceptor"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "crack"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "dba"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "http"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "huffman"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "idn"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "igbinary"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "imagick"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "imap"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "include"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "inotify"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "interbase"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "intl"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "ioncube_loader"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "ioncube_loader_4"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "jsmin"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "json"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "ldap"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "nd_pdo_mysql"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "oauth"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "oci8"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "odbc"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "opcache"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "pdf"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "pdo"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "pdo_dblib"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "pdo_firebird"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "pdo_mysql"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "pdo_odbc"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "pdo_pgsql"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "pdo_sqlite"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "pgsql"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "phalcon"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "stats"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "stem"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "stomp"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "suhosin"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "sybase_ct"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "sysvmsg"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "sysvsem"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "sysvshm"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "tidy"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "timezonedb"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "trader"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "translit"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "uploadprogress"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "uri_template"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "uuid"
+    }
+  ]
+}

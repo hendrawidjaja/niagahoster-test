@@ -1,0 +1,53 @@
+{
+  "block": [
+    {
+      "className": "",
+      "show": true,
+      "icon": "svgHostingPHP",
+      "title": "PHP Semua Versi",
+      "teaser": "Pilih mulai dari versi PHP 5.3 s/d PHP 7.",
+      "text": "Ubah sesuka Anda!"
+    },
+
+    {
+      "className": "",
+      "show": true,
+      "icon": "svgMySQL",
+      "title": "MySQL Versi 5.6",
+      "teaser": "Nikmati MySQL versi terbaru, tercepat dan",
+      "text": "kaya akan fitur."
+    },
+    {
+      "className": "",
+      "show": true,
+      "icon": "svgCPanel",
+      "title": "Panel Hosting cPanel",
+      "teaser": "Kelola website dengan panel canggih yang",
+      "text": "familiar di hati Anda."
+    },
+    {
+      "className": "",
+      "show": true,
+      "icon": "svgUptime",
+      "title": "Garansi Uptime 99.9%",
+      "teaser": "Data center yang mendukung kelangsungan",
+      "text": "website Anda 24/7."
+    },
+    {
+      "className": "",
+      "show": true,
+      "icon": "svgInnoDB",
+      "title": "Database InnoDB Unlimited",
+      "teaser": "Jumlah dan ukuran database yang tumbuh",
+      "text": "sesuai kebutuhan Anda."
+    },
+    {
+      "className": "",
+      "show": true,
+      "icon": "svgMySQLRemote",
+      "title": "Wildcard Remote MySQL",
+      "teaser": "Mendukung s/d 25 max_user_connections",
+      "text": "dan 100 max_connections."
+    }
+  ]
+}

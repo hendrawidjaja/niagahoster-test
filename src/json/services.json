@@ -1,0 +1,61 @@
+{
+  "title": "LAYANAN",
+  "block": [
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Domain"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Shared Hosting"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Cloud VPS Hosting"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Managed VPS Hosting"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Web Builder"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Keamanan SSL/HTTPS"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Jasa Pembuatan Website"
+    },
+    {
+      "className": "",
+      "show": true,
+      "title": "",
+      "teaser": "",
+      "text": "Program Affiliasi"
+    }
+  ]
+}
